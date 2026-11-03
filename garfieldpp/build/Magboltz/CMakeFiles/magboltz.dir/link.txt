@@ -1,0 +1,1 @@
+/opt/homebrew/bin/gfortran -O3 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX26.5.sdk -mmacosx-version-min=26.3 -dynamiclib -Wl,-headerpad_max_install_names -compatibility_version 11.0.0 -o libmagboltz.11.dylib -install_name @rpath/libmagboltz.11.dylib CMakeFiles/magboltz.dir/magboltz.f.o
